@@ -40,6 +40,4 @@ def reviews():
 
 
 if __name__ == "__main__":
-    # Config.restart_db()
-    # Config.migrate()
     app.run(debug=True)
